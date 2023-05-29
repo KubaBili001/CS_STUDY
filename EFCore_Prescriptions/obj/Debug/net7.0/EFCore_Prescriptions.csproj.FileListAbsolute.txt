@@ -76,3 +76,5 @@ C:\Users\User\Desktop\.NET\CS_STUDY\EFCore_Prescriptions\bin\Debug\net7.0\runtim
 C:\Users\User\Desktop\.NET\CS_STUDY\EFCore_Prescriptions\obj\Debug\net7.0\EFCore_Prescriptions.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\User\Desktop\.NET\CS_STUDY\EFCore_Prescriptions\obj\Debug\net7.0\EFCore_Prescriptions.csproj.CopyComplete
 C:\Users\User\Desktop\.NET\CS_STUDY\EFCore_Prescriptions\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\User\Desktop\.NET\CS_STUDY\EFCore_Prescriptions\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\User\Desktop\.NET\CS_STUDY\EFCore_Prescriptions\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll

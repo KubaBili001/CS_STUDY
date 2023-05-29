@@ -22,5 +22,16 @@ namespace EFCore_Prescriptions.Models
 
         [Required]
         public string Salt { get; set;}
+
+        public User() { }
+
+        public User(string login, string password, string refreshToken, DateTime refreshTokenExp, string salt)
+        {
+            Login=login;
+            Password=password;
+            RefreshToken=refreshToken;
+            RefreshTokenExp=refreshTokenExp;
+            Salt=salt;
+        }
     }
 }
