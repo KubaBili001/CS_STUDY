@@ -1,0 +1,43 @@
+﻿@model List<Student>
+
+<style>
+    table, th, td {
+        border: 1px solid black;
+    }
+    table {
+        table-layout: fixed;
+        width: 100%;
+    }
+    td {
+        width: 25%;
+    }
+</style>
+
+<h1>Lista studentów</h1>
+
+<table>
+    <thead>
+        <tr>
+            <td>IdStudent</td>
+            <td>Imie</td>
+            <td>Nazwisko</td>
+            <td>Indeks</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var student in Model)
+        {
+            <tr>
+                <td>@student.Id</td>
+                <td>@student.FirstName</td>
+                <td>@student.LastName</td>
+                <td>@student.IndexNumber</td>
+                <td>
+                    <form method="post" action="/students/delete/@student.Id">
+                        <button type="submit">Usuń</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

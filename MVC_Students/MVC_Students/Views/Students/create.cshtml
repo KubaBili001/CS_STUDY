@@ -1,0 +1,19 @@
+﻿@model Student
+
+<h1>Dodaj studenta</h1>
+
+<form method="post">
+    <input type="text" asp-for="FirstName"/>
+    <span asp-validation-for="FirstName"></span>
+    <input type="text" asp-for="LastName" />
+    <span asp-validation-for="LastName"></span>
+    <input type="text" asp-for="IndexNumber" />
+    <span asp-validation-for="IndexNumber"></span>
+    <button type="submit">Zapisz</button>
+</form>
+
+@section Scripts{
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+}
